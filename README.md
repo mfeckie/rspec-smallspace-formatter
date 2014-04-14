@@ -17,3 +17,9 @@ require 'small_space_formatter'
 
 Run RSpec `rspec -f SmallSpaceFormatter`
 
+If you are using Guard adjust your Guardfile to use the formatter
+
+```ruby
+guard :rspec, cmd: 'rspec -f SmallSpaceFormatter' do
+```
+
