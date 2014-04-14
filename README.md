@@ -7,7 +7,13 @@ An RSpec formatter designed to be run in a small ( ~6 line) terminal
 
 With Rails
 
-Add the `small_space_formatter.rb` to the lib directory
+Add `small_space_formatter.rb` to the lib directory
+
+Require the file in `spec_helper.rb`
+
+```ruby
+require 'small_space_formatter'
+```
 
 Run RSpec `rspec -f SmallSpaceFormatter`
 
